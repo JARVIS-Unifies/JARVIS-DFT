@@ -7,6 +7,7 @@ from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
 #print("Si has a melting point of {}".format(si.melting_point))
 #print("Ionic radii for Si: {}".format(si.ionic_radii))
 ######################################################
+print ("For space group")
 structure = mg.Structure.from_file("POSCAR")
 finder = SpacegroupAnalyzer(structure)
 num=finder.get_spacegroup_number()
