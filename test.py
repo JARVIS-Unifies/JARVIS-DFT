@@ -22,7 +22,7 @@ def get_kpoints(structure=None,nbands=30,encut=600):
        incar = Incar.from_dict(incar_dict)
        user_incar_settings={"EDIFF":1E-6,"ISIF":2,"NSW":0,"LORBIT":11,"ENCUT":encut,"LWAVE":'.FALSE.',"PREC":'Accurate'}
        mpvis = MPNonSCFVaspInputSet(user_incar_settings=incar)
-
+       print mpvis
 
        kpoints=mpvis.get_kpoints(structure)
        kpoints.write_file('KP')
