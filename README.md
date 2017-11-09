@@ -1,2 +1,2 @@
 # JARVIS-DFT
-visit https://github.com/usnistgov/jarvis
+Moved to https://github.com/usnistgov/jarvis
