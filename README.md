@@ -1,2 +1,2 @@
 # JARVIS-DFT
-This repo has been moved to https://github.com/JARVIS-Materials-Design/jarvis-tools
+This repo has been moved to https://github.com/usnistgov/jarvis
